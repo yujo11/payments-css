@@ -1,0 +1,22 @@
+@import "./card.css";
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+
+.root {
+  background-color: #fff;
+  width: 375px;
+  height: 700px;
+  position: relative;
+  border-radius: 15px;
+
+  margin-right: 20px;
+}
+
+.app {
+  height: 100%;
+}
