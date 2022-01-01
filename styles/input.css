@@ -27,7 +27,10 @@
   border: none;
   border-radius: 7px;
 
+  line-height: 45px;
+
   text-align: center;
+  vertical-align: middle;
 }
 
 .input-half {

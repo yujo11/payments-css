@@ -6,13 +6,12 @@
 
 .empty-card {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   width: 208px;
-  height: 123px;
-  left: 83px;
-  top: 493px;
+  height: 130px;
 
   font-size: 30px;
   color: #575757;
@@ -29,7 +28,7 @@
   align-items: center;
   justify-content: center;
 
-  width: 208.2px;
+  width: 208px;
   height: 130px;
 
   background: #94dacd;
@@ -67,18 +66,39 @@
 .card-top {
   width: 100%;
   height: 100%;
+
+  display: flex;
+  align-items: center;
 }
 
 .card-middle {
   width: 100%;
   height: 100%;
-  margin-left: 20px;
+  margin-left: 30px;
 
   display: flex;
   align-items: center;
 }
 
 .card-bottom {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-bottom__number {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-bottom__info {
   width: 100%;
   height: 100%;
 
@@ -91,5 +111,7 @@
   margin: 0 16px;
 
   font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
   font-weight: 400;
 }
